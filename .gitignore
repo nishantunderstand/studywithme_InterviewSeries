@@ -1,0 +1,9 @@
+.claude
+node_modules/
+.env
+.code-workspace
+.bat
+.lnk
+.workspace
+.obsidian
+.bat
