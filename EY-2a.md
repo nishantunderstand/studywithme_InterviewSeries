@@ -1,4 +1,3 @@
-https://lnkd.in/p/g8HiPv89
 
 [****EY****](https://www.linkedin.com/company/ernstandyoung/) – Technical Interview Experience | Java | Spring Boot | Microservices | AWS | Kafka  
   
