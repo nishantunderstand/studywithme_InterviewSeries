@@ -1,2 +1,0 @@
-DLT DLQ
-isoloate 
