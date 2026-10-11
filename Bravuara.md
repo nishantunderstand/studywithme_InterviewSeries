@@ -7,25 +7,25 @@ Interview WalkIn Buddy Question Shared Last Updated : Tuesday, May 12, 2026
 5. What is the Maven life-cycle (in a detailed-Maven package, maven - install, maven - deploy) 🤔🤔🤔 
 6. How did you implement Spring Security in distributed microservices?
 7. How to maintain transactions in a distributed database?
-8. In pom.xml, we used the tag `<Distribution Management>`. What is it? why we use it?
-9. Is it possible to write private methods in an interface?
+8. In pom.xml, we used the tag `<Distribution Management>`. What is it? why we use it?  🤔🤔🤔 
+9. Is it possible to write private methods in an interface? 
 10. How many types of methods can we write in an interface?
 11. what is @EnableAutoConfiguration and @Qualifier?
 12. What are bean lifecycles?
 13. Java 17 features.
-14. What is the Record class, and how do we store data in the Record class if a list of data is coming through a query? How to fetch the first records?
-15. What is the var keyword? Can we use it as a generic type?
+14. What is the Record class, and how do we store data in the Record class if a list of data is coming through a query? How to fetch the first records?  🤔🤔🤔 
+15. What is the var keyword? Can we use it as a generic type?  🤔🤔🤔 
 16. SOLID design principles.
-17. What is CQRS?
+17. What is CQRS?  🤔🤔🤔 
 18. How can we make Kafka Producer Idempotent?
-19. Load Balancer Policies scenario - if 3 instances are running, how to check which is available to post messages?
+19. Load Balancer Policies scenario - if 3 instances are running, how to check which is available to post messages?  🤔🤔🤔 
 20. Write a query to fetch all employees who have a salary more than the average of all employees' salaries.
 21. Find the first unique character, and its index. ex- String input = 'hackathon';
 
 ---
 
 1. completeableFuture vs executorServices
-2. what data structure to use when dealing with large dataset
+2. what data structure to use when dealing with large dataset  🤔🤔🤔 
 3. in mongo what security measure to take before inserting data
 4. in a multithreaded env suppose 1 thread is writing other one is reading what to use
 5. how to acheive a multithreaded env

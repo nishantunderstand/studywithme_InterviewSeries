@@ -1,6 +1,6 @@
 - [x] [[Accenture]]  
 - [x] [[Altimetrik]]  
-- [ ] [[Americian Express]]  
+- [x] [[Americian Express]]  
 - [ ] [[Barclays]]  
 - [ ] [[Bravuara]]  
 - [ ] [[Capgemini]]  

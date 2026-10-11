@@ -5,7 +5,7 @@ I recently attended an interview for a Java Backend Developer role at Infosys an
 - Stream vs flat Map.
 - Explain basic Spring Security.
 - Reverse a string without using predefined methods.
-- Spring Container internal working.
+- Spring Container internal working.  🤔🤔🤔 
 - What is an Optional class?
 - What is the difference between @primary and @Qualifier?
 - Explain Completable Future methods.
@@ -13,15 +13,15 @@ I recently attended an interview for a Java Backend Developer role at Infosys an
 - Explain Maven Lifecycle.
 - What is the difference between Path Variable and Request Params?
 - What is JWT security, and how have you used it in your project
-- What is fetch type (Lazy and Eager Loading)?
-- Explain and implement the factory design pattern (with some modification)
-- What do you know about ISO8583?
-- Diff b/w IOC and Dependency Injection.
+- What is fetch type (Lazy and Eager Loading)?  🤔🤔🤔 
+- Explain and implement the factory design pattern (with some modification)  🤔🤔🤔 
+- What do you know about ISO8583?  🤔🤔🤔 
+- Diff b/w IOC and Dependency Injection. 🤔🤔🤔 
 - What is Dependency Injection and its types?
 - Find the second-highest salary from the employee table.
-- Find a file in a subdirectory
+- Find a file in a subdirectory  🤔🤔🤔 
 - How have you used Spring Security in your project?
 - What is a spring profile, and how did you use it?
-- What is exception handling, and what is a Controller Advisor?
+- What is exception handling, and what is a Controller Advisor?  🤔🤔🤔 
 - How does the @Transactional annotation work?
 - If anyone is preparing for Java Backend Developer interviews, these questions might be helpful.
