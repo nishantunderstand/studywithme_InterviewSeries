@@ -1,9 +1,6 @@
 ![Interview Series Day 1](InterviewSeriesWorkspaceBanner.png)
 
----
-## Welcome to Day 1
----
-- Thankful
+Thankful
 - https://www.linkedin.com/company/cjd-community/posts/?feedView=all (Best)
 - https://github.com/CJDCommunity/Resources-/tree/main/Interview_Questions/Company_Wise_Interview_Questions (Best)
 - https://www.linkedin.com/in/i-am-madhuk/?isSelfProfile=false
