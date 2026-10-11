@@ -8,7 +8,6 @@ Thankful
 - https://www.linkedin.com/in/naushad-a-93081b179/
 - https://www.linkedin.com/in/sweety-sharma-sde/
 - https://www.linkedin.com/in/yash-shah-java-fullstack-developer/recent-activity/all/
-
 ---
 - [Interview Series TOC](!TOC.md)
 - Accenture

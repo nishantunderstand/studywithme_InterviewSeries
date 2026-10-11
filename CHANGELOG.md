@@ -1,0 +1,6 @@
+- I use  these emoji 
+- This is a personal Project Repo.
+- This is active as of now.
+- I am adding new Question Every Single Week.
+- 🤔🤔🤔 : I have doubt 
+- 👈👈👈👈👈: Resume from here in next study sprint.
