@@ -1,0 +1,17 @@
+
+# Hidden folders and files
+.claude/
+node_modules/
+.obsidian/
+
+# Environment and workspace files
+.env
+*.code-workspace
+*.workspace
+
+# Scripts and shortcuts
+*.bat
+*.lnk
+
+# Ignore all files starting with underscore
+_*
