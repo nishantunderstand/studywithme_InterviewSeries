@@ -1,5 +1,4 @@
 I recently attended an interview for a Java Backend Developer role at Infosys and Barclays. I wanted to share my experience along with the questions that were asked.
-
 - Explain the SOLID Design pattern.
 - What is JWT security, and how have you used it in your project?
 - Stream vs flat Map.

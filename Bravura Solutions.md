@@ -1,5 +1,4 @@
-Interview WalkIn Buddy Question Shared Last Updated : Tuesday, May 12, 2026 
-
+Tuesday, May 12, 2026 
 1. Diff between synchronized keyword and Reentrant Lock. What is a trade-off? 🤔🤔🤔 
 2. HirakiCP, what is it? 🤔🤔🤔 
 3. What is a volatile keyword? 
@@ -28,17 +27,17 @@ Interview WalkIn Buddy Question Shared Last Updated : Tuesday, May 12, 2026
 2. what data structure to use when dealing with large dataset  🤔🤔🤔 
 3. in mongo what security measure to take before inserting data
 4. in a multithreaded env suppose 1 thread is writing other one is reading what to use
-5. how to acheive a multithreaded env
+5. how to acheive a multithreaded env 
 6. suppose you have an API which returns a loade of data how to optimize
-7. Suppose service A communicate with service  B through a rest api, and some third party manipulated the data how to validate?
-8. what is the  strategy in Circuit Breaker pattern
-9. how to resolve circular dependency, explain with an scenario
+7. Suppose service A communicate with service  B through a rest api, and some third party manipulated the data how to validate?  🤔🤔🤔 
+8. what is the  strategy in Circuit Breaker pattern  🤔🤔🤔 
+9. how to resolve circular dependency, explain with an scenario  🤔🤔🤔 
 
 ---
 
 1. ControllerAdvice / SpringBoot Exception Handling
 2. DSA ques (print yes if 5 consecutive vowels else no)
-3. how to validate request body
+3. how to validate request body  🤔🤔🤔 
 4. Signals in Angular
 5. path variable vs query param
 
@@ -48,11 +47,11 @@ Interview WalkIn Buddy Question Shared Last Updated : Tuesday, May 12, 2026
 2. If 100 users accessing same database .
 3. If 1000 users hit the same api then how will you use multiple threads.
 4. What is thread safe .
-5. diff btw Function and  producer .
+5. diff btw Function and  producer . 🤔🤔🤔 
 6. write producer .
 7. Stream Api .
 8. You have the user name and documents of that user , to save these details on server write service for this scenario.
-9. Select the employee If any employee address  is null then print 'NA' in place of null .
+9. Select the employee If any employee address  is null then print 'NA' in place of null .  🤔🤔🤔 
 10. Count the employee based on department.
 Questions asked :-
 1. mostly from CV (might differ from interviewer to interviewer)
@@ -60,7 +59,7 @@ Questions asked :-
 3. ⁠completeable future vs executor service
 4. ⁠atomic integer and synchronised 
 5. ⁠what is autowired
-6. ⁠what happens when we interchange the repo and service annotations
+6. ⁠what happens when we interchange the repo and service annotations  🤔🤔🤔 
 7. ⁠DSA questions (factorial using recursion, n stairs problem)
 
 ---
