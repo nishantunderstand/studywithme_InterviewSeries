@@ -1,3 +1,37 @@
+
+EY Interview Experience for BNY_Melon client | Java | Senior Consultant👇
+
+1. Spring Boot Features: What are the main features of Spring Boot that you use in your day-to-day work? 
+2. You see high CPU usage but low traffic. What could be the reason?
+3. Kafka Consumer Lag: Your Kafka consumer is slower than the producer and the lag keeps increasing. How would you troubleshoot it? 
+4. Your application slows down after running for a few hours. What will you check?
+5. You are facing frequent GC pauses. How will you optimize it?
+6. A HashMap is causing performance issues under heavy load. Why?
+7. Multiple threads are updating shared data incorrectly. How will you fix it?
+8. Your API works fine locally but fails in production. What will you investigate?
+9. You suspect a memory leak. How will you confirm it?
+10. A service becomes unresponsive randomly. What could be happening?
+11. You see deadlock in your system. How will you detect and resolve it?
+12. Your logs show inconsistent behavior across requests. Why?
+13. Your application crashes without any clear error. How will you debug it?
+14. A database call is slowing down your Java service. How will you optimize it?
+15. Your thread pool gets exhausted under load. What's your approach?
+16. You need to handle high concurrency safely. What will you use?
+17. Your system processes duplicate requests. How will you handle it?
+18. A cache is giving stale data. How will you fix it?
+19. A thread is stuck in BLOCKED state. How will you identify and fix it?
+20. You need to trace a request across multiple layers. How will you do 
+21. Your application is not scaling even after adding instances. Why? 
+
+
+
+
+
+
+
+---
+
+
 https://lnkd.in/p/g8HiPv89
 
 [****EY****](https://www.linkedin.com/company/ernstandyoung/) – Technical Interview Experience | Java | Spring Boot | Microservices | AWS | Kafka  
