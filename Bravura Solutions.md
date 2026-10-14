@@ -86,12 +86,12 @@ Interview Bravura Solution
 8. Java streams, square the elements in an array 
 9. How to concatenate strings in Java 8. 
 10. Functional interface
-11. ExecutorFramework, what other methods are there other than newSingleThreadPool
+11. ExecutorFramework, what other methods are there other than newSingleThreadPool 
 12. Have you used multithreading in your project
 13. Future vs completable Future
-14. jpa entitymanager vs hibernate session
+14. jpa entitymanager vs hibernate session  🤔🤔🤔 
 15. SQL query to fetch the 2nd-highest salary
-16. How would you optimize your SQL query? Some questions around indexing (index manager)
+16. How would you optimize your SQL query? Some questions around indexing (index manager)  🤔🤔🤔 
 17. If you’re getting a large dataset, how would you implement it on your client side?
 18. Being a Senior developer in your team, what would be your action if someone is not performing well?
 19. In today’s fast-growing AI world, what have you learned, and how are you personally adapting or contributing to stay relevant?
