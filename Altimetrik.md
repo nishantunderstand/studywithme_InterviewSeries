@@ -15,9 +15,9 @@ Questions asked here in Altimetrik second time:
 
 Stream questions
 
-- // Find the following details
-- // count of employees (each department)
-- // name and age of youngest employee (each department)
+- Find the following details
+- count of employees (each department)
+- name and age of youngest employee (each department)
 
 
 Stream Question:

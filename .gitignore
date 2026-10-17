@@ -14,4 +14,4 @@ node_modules/
 *.lnk
 
 # Ignore all files starting with underscore
-_*
+# _*
