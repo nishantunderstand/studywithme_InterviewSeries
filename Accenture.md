@@ -3,9 +3,8 @@ Interview Accenture Interview-1
 2. react scenio based questions if backend sends you data how you consume it and put modal on frontend based on data availability 
 3. java 8 streams coding 2 questions
 1. sql coding questions
-Spring boot questional @transactional , @contoller vs @restcontroller, about how conifgs are done, how deployment is done ? Any knowledge on AWS,azure concepts,
-Any knowledge on pubsub model, liquibase for database migrations
-
+- Spring boot questional @transactional , @contoller vs @restcontroller, about how conifgs are done, how deployment is done ? Any knowledge on AWS,azure concepts,
+- Any knowledge on pubsub model, liquibase for database migrations
 
 Interview Accenture-2
 
