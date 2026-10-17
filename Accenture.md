@@ -176,46 +176,41 @@ Interview Accenture Interview-3
 
 
 Interview Accenture Interview-AI
-Recently, I attended the interview process for **Accenture – Custom Software Engineer (AI Full Stack Java Developer)**.
-Sharing my experience in case it helps others preparing for similar roles.
 
-- **Round 1 – HackerRank Assessment**
-• 2 coding questions
-• Solved 1 completely (passed the round)
+- Round 1 – HackerRank Assessment
+- 2 coding questions
+- Solved 1 completely (passed the round)
 
-- **Round 2 – Technical/Skill Interview**
+- Round 2 – Technical/Skill Interview
 - Covered a wide range of concepts from Core Java to Cloud & DevOps:
-• Singleton Design Pattern (code implementation)
-• Microservices failure handling
-• JWT implementation
-• Java Stream API (2 coding problems)
-• String vs StringBuilder vs StringBuffer
-• Producer–Consumer problem
-• Consumer vs Supplier functional interfaces
-• SQL queries
-• synchronized keyword
-• Excluding configuration in Spring Boot
-• Git & Docker commands
-• Jenkins pipeline implementation
-• Core Java code snippets (predict output/behavior)
-• Lazy vs Eager loading
-• React basics
-• AWS concepts
-• Types of AI models
+- Singleton Design Pattern (code implementation)
+- Microservices failure handling
+- JWT implementation
+- Java Stream API (2 coding problems)
+- String vs StringBuilder vs StringBuffer
+- Producer–Consumer problem
+- Consumer vs Supplier functional interfaces
+- SQL queries
+- synchronized keyword
+- Excluding configuration in Spring Boot
+- Git & Docker commands
+- Jenkins pipeline implementation
+- Core Java code snippets (predict output/behavior)
+- Lazy vs Eager loading
+- React basics
+- AWS concepts
+- Types of AI models
 
-- **Round 3 – Managerial Round**
-Behavioral questions focused on:
-• Team collaboration
-• Project experience
-• Problem-solving approach
-• Communication skills
+- Round 3 – Managerial Round
+- Behavioral questions focused on:
+- Team collaboration
+- Project experience
+- Problem-solving approach
+- Communication skills
 
-- **Round 4 – Technical/Cloud Round (unexpected)**
-Primarily focused on **Cloud concepts** like:
-• Load balancing
-• Scalability
-• Architecture discussions
+- Round 4 – Technical/Cloud Round (unexpected)
+- Primarily focused on Cloud concepts like:
+- Load balancing
+- Scalability
+- Architecture discussions
 
-Overall, it was a great learning experience with deep technical discussions across **Java, Spring Boot, Microservices, Cloud, DevOps, and AI**.
-
-Hope this helps anyone preparing for Accenture or similar full-stack roles. Happy to connect and discuss preparation strategies 🙂
