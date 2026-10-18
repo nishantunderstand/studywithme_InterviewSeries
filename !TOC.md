@@ -8,7 +8,7 @@
 - [x] [[Cognizant]]  
 - [x] [[Comviva]]  
 - [x] [[Datatex]]  
-- [ ] [[Delhivery]]  
+- [x] [[Delhivery]]  
 - [ ] [[Deloite]]  
 - [ ] [[EPAM]]  
 - [ ] [[EY-1]]  
