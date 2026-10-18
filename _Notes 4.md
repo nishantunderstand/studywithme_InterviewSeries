@@ -63,3 +63,53 @@ employees.stream()
 
 - `? extends T`: suitable when reading values as type `T`.
 - `? super T`: suitable when adding values of type `T`.
+
+## 1. `Optional.of()` vs `Optional.ofNullable()`
+
+## 1. `isPresent()` vs `ifPresent()`
+
+
+### 3. `orElse()` vs `orElseGet()` 🤔
+
+- `orElse()` evaluates `getDefault()` even when the value exists.    
+- `orElseGet()` evaluates the supplier only when the Optional is empty.
+Remember: `orElse` = eager; `orElseGet` = lazy.
+
+
+### A. Reverse order, distinct integers, odd first then even
+```
+List<Integer> result = numbers.stream()
+    .distinct()
+    .sorted(Comparator.reverseOrder())
+    .sorted(Comparator.comparingInt(n -> n % 2 == 0 ? 1 : 0))
+    .toList();
+```
+
+
+3. ISO 8583
+
+Find a file in a subdirectory
+```
+try (var paths = Files.walk(Path.of("rootDirectory"))) {
+    paths.filter(Files::isRegularFile)
+         .filter(p -> p.getFileName().toString().equals("target.txt"))
+         .forEach(System.out::println);
+}
+```
+
+
+
+```
+@GetMapping("/employees")
+public Page<Employee> getEmployees(
+        @RequestParam(defaultValue = "0") int page,
+        @RequestParam(defaultValue = "10") int size,
+        @RequestParam(defaultValue = "name") String sortBy) {
+
+    Pageable pageable = PageRequest.of(
+        page, size, Sort.by(sortBy).ascending()
+    );
+
+    return employeeRepository.findAll(pageable);
+}
+```
