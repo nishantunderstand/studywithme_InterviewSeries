@@ -57,3 +57,9 @@ employees.stream()
 ### 9. What happens when an exception occurs during a transaction?
 
 “By default, Spring rolls back for unchecked exceptions and `Error`, but not checked exceptions. We can customize this using `rollbackFor`.”
+
+
+15. Generics: `extends` vs `super`
+
+- `? extends T`: suitable when reading values as type `T`.
+- `? super T`: suitable when adding values of type `T`.

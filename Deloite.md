@@ -8,15 +8,15 @@ Round 1 – Technical Interview : -
 4. Functional interface vs marker interface.
 5. Can we overload the main() method? Which one does JVM execute?
 6. Difference between this and super keywords.
-7. How do you create and handle custom exceptions?
+7. How do you create and handle custom exceptions? 
 
 # Multithreading & Concurrency
 1. Difference between Runnable and Callable.
-2. Difference between start() and run().
+2. Difference between start() and run(). 
 3. Difference between wait() and sleep().
 4. What is synchronization in Java?
-5. Explain Java memory areas: Heap, Stack, Method Area, and Program Counter.
-6. What is garbage collection? What is the purpose of finalize()?
+5. Explain Java memory areas: Heap, Stack, Method Area, and Program Counter. 
+6. What is garbage collection? What is the purpose of finalize()? 
 
 # Coding & SQL
 1. Find the minimum-length subarray whose sum equals a given target.
@@ -26,16 +26,12 @@ Round 1 – Technical Interview : -
 
 All the best!
 
-
-
-
-
 ---
 
 Deloitte round 1 | 4 Yoe
 
 - Abstract class vs interface after java 8
-- Locking
+- Locking 
 - Wait notify notify all
 - ReentrantLock vs ReentrantReadWriteLock 
 - Future vs CompletableFuture 
@@ -43,18 +39,18 @@ Deloitte round 1 | 4 Yoe
 - Fail fast vs fail safe 
 - ConcurrentModificationException 
 - Optional
-- Generices extend vs super
+- Generices extend vs super 
 - Rest Controller vs service vs repository vs component
 - Component vs configuration & bean
-- Global exception handler
+- Global exception handler 
 - Saga orchestration choreography 
-- Resilience circuit breaker retry bulkhead jitters
+- Resilience circuit breaker retry bulkhead jitters 
 - Microservices communication sercurity
 - Filter vs intercepter
-- Hibernate 2 level caches
+- Hibernate 2 level caches 
 - N+1 how to solve
-- Kafka consumer griup offset topic partitioning dlq acks replication
-- Sql indexing composite key procedures triggers 
+- Kafka consumer group offset topic partitioning dlq acks replication 
+- Sql indexing composite key procedures triggers  
 - Sql code Find all employee salary more than manager 
 - Stream code - list of integer give reverse order ed disctint odd first then even
 - Coding que - correct brackets ([]){}, first explain. Then followup, how without using stackk
@@ -81,13 +77,16 @@ Experience level: 3 years
 - What is the difference between checked and unchecked exceptions? 
 - What is the difference between String Buffer and StringBuilder? 
 - What type of work have you done with MySQL? 
-- Can you write the query to fetch average of all employee salary department wise?
+- Can you write the query to fetch average of all employee salary department wise? 
 - Coding: Given a String [] where all strings have common starting characters, write a Java program to compare the strings and return the common characters. 
 Example: 
 ["apple", "apply", "approach"]
 Output: ap
 
 ---
+
+
+
 
 Interview Deloite 2026
 
@@ -96,30 +95,30 @@ Recently, I had the opportunity to interview with Deloitte for a Java Backend De
 
 Here are some of the topics/questions discussed during the interview:
 - Java & OOP Concepts
--	Aggregation vs Composition
--	this vs super
--	Why runtime polymorphism is used in method overriding
--	Fail-Fast vs Fail-Safe iterators
--	Sleep vs Wait in multithreading
--	Liskov Substitution Principle (SOLID principle)
+- Aggregation vs Composition 
+- this vs super
+- Why runtime polymorphism is used in method overriding 
+- Fail-Fast vs Fail-Safe iterators
+- Sleep vs Wait in multithreading
+- Liskov Substitution Principle (SOLID principle)
 
 - Java 8
--	Map vs FlatMap
+- Map vs FlatMap
 
 - Concurrency
--	ExecutorService and its important methods
+- ExecutorService and its important methods
 
 - Testing
-- Which version for Junit used in your project.
+- Which version for Junit used in your project. 
 
 - Spring / Backend
--	IoC Container (Inversion of Control)
--	Spring Bean Lifecycle
--	AOP and how it was implemented in my project
+- IoC Container (Inversion of Control)
+- Spring Bean Lifecycle
+- AOP and how it was implemented in my project 
 
 - Database
 - Normalization and its types
-- Difference between View and Procedure
+- Difference between View and Procedure 
 
 - System Design / Architecture
 - Design patterns used in projects
