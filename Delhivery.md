@@ -36,7 +36,7 @@ This round was a combination of theoretical discussions and DSA problem-solving.
 🧠 DSA Section
 The interviewer allowed me to choose a topic I was comfortable with and then asked two problems.
 
-Problem 1 – Linked List
+- Problem 1 – Linked List
 
 You are given the head of a linked list and an integer array nums.
 Return the number of connected components formed by nodes whose values appear in nums.
@@ -45,7 +45,7 @@ Input:  head = [0,1,2,3]
 nums = [0,1,3]
 Output: 2
 
-Problem 2 – Find Duplicate in a Read-Only Array
+- Problem 2 – Find Duplicate in a Read-Only Array
 
 The array cannot be modified.
 Size = N + 1
