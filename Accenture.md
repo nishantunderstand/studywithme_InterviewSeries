@@ -1,3 +1,8 @@
+---
+tags:
+  - L1
+---
+
 Interview Accenture Interview-1
 1. what i did in my project and how I did it?
 2. react scenio based questions if backend sends you data how you consume it and put modal on frontend based on data availability
@@ -5,6 +10,7 @@ Interview Accenture Interview-1
 4. sql coding questions
 5. Spring boot questional @transactional , @contoller vs @restcontroller, about how conifgs are done, how deployment is done ? Any knowledge on AWS,azure concepts,
 6. Any knowledge on pubsub model, liquibase for database migrations
+
 
 Interview Accenture-2
 

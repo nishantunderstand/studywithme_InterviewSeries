@@ -30,10 +30,6 @@ TECH MAHINDRA
 - How does CI/CD pipeline work in your project?
 - Count subset with sum K.
 
----
-> Duplicate Later
-> ---
-> 
 
 Interview TechMahindra
 1] Suppose you have added @Transactional, but still data is partially saved when an exception happens. How will you debug and fix it?

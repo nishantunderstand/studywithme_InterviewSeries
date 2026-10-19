@@ -8,19 +8,19 @@ https://www.linkedin.com/feed/update/urn:li:activity:7510636685941112833/
 - Tell me about yourself.  
 - Explain your project. What exactly was your contribution? The interviewer focused heavily on my actual project implementation, contribution, and the reasons behind the technical decisions I made.  
 - Explain the OOPS concepts in Java with real-time examples.  
-- What is a Lambda Expression? Why was it introduced in Java 8?  
-- What is a Functional Interface? Can you give an example?  
+- What is a Lambda Expression? Why was it introduced in Java 8?   🤔🤔🤔 
+- What is a Functional Interface? Can you give an example?   🤔🤔🤔 
 - What is the difference between Microservices and Monolithic Architecture?  
 - Explain the SDLC life cycle.  
-- What is an API Gateway? Which design pattern is commonly associated with it?  
-- What is the difference between JDK, JRE and JVM?  
+- What is an API Gateway? Which design pattern is commonly associated with it?    🤔🤔🤔 
+- What is the difference between JDK, JRE and JVM?   
 - What are the important features introduced in Java 8?  
 - What are SOLID principles? Explain them with examples.  
   
 - 🗄️ SQL Questions  
 - What are SQL Joins? Explain the different types of Joins.  
 - What is an Index in SQL? Why do we use it?  
-- What is the difference between a Primary Key and a Unique Key?
+- What is the difference between a Primary Key and a Unique Key?  🤔🤔🤔 
 
 ---
 
@@ -31,19 +31,22 @@ I recently attended an interview with **Infosys** for a **Senior Java / Spring B
 The interview was mainly focused on **real-world scenarios, scalability, performance, fault tolerance, distributed systems, and system design** rather than only theoretical concepts.  
 
 - 🔹 Questions Asked  
-- **Java / Design Principles**  
-- Explain **SOLID principles** with real-world examples.  
+
+**Java / Design Principles**  
+- Explain **SOLID principles** with real-world examples.    🤔🤔🤔  
 - **Spring Boot / Hibernate**  
 - What is the **N+1 problem** in Hibernate?  
-- How do you identify and resolve the N+1 problem?  
-- How would you handle **5 lakh records efficiently**?  
-- How would you optimize a **slow API**?  
-- **Kafka**  
+- How do you identify and resolve the N+1 problem?   🤔🤔🤔 
+- How would you handle **5 lakh records efficiently**?   🤔🤔🤔 
+- How would you optimize a **slow API**?   🤔🤔🤔 
+
+**Kafka**  
 - What is a **Kafka Topic**?  
 - How does Kafka handle high-volume data?  
 - What are partitions and consumer groups?  
 - How do you handle failed Kafka messages?  
-- **Microservices / System Design**  
+
+**Microservices / System Design**  
 - How would you design **Payment, Inventory, and Notification services**?  
 - What happens if the **Payment Service goes down**?  
 - What happens if **Payment succeeds but Inventory Service fails**?  
@@ -53,16 +56,19 @@ The interview was mainly focused on **real-world scenarios, scalability, perform
 - What is a **Circuit Breaker**?  
 - How would you handle **retries and timeouts** between microservices?  
 - How do you implement **Idempotency** in payment processing?  
-- **SQL Server**  
-- What is a **Stored Procedure**?  
-- Why would you use a Stored Procedure?  
-- How would you optimize SQL queries for a large dataset?  
-- **CI/CD**  
+
+**SQL Server**  
+- What is a **Stored Procedure**?   🤔🤔🤔 
+- Why would you use a Stored Procedure?   🤔🤔🤔 
+- How would you optimize SQL queries for a large dataset?   🤔🤔🤔 
+
+**CI/CD**  
 - What is **CI/CD**?  
-- Explain a CI/CD pipeline for a **Spring Boot application**.  
-- What happens if **unit tests fail** during the pipeline?  
-- How would you handle a failed production deployment?  
-- **Docker**  
+- Explain a CI/CD pipeline for a **Spring Boot application**.   🤔🤔🤔 
+- What happens if **unit tests fail** during the pipeline?   🤔🤔🤔 
+- How would you handle a failed production deployment?   🤔🤔🤔 
+
+**Docker**  
 - How do you **Dockerize a Spring Boot application**?  
 - What is a **Dockerfile**?  
 - What is the difference between a Docker image and a container?  
@@ -85,23 +91,24 @@ Please share your experience in the comments. It may help other developers prepa
 
 
 Interview LinkedIn 2026
+
 🚀 Most Frequently Asked Scenario-Based Questions for Senior Java Developer Roles
-1. Suppose you have 3 microservices: A, B, and C. A posts a message to a Kafka topic of B. How does Microservice B consume the message and post it to the REST API endpoint of Microservice C?
-2. How do we post a message to a REST API endpoint, and what is the difference between HttpClient and RestTemplate?
-3. What is the difference between CrudRepository and JpaRepository?
-4. What is the difference between SessionFactory and EntityManager?
-5. In Spring JPA, what does it internally use: SessionFactory or EntityManager?
-6. In Hibernate, what do we use: SessionFactory or EntityManager?
+1. Suppose you have 3 microservices: A, B, and C. A posts a message to a Kafka topic of B. How does Microservice B consume the message and post it to the REST API endpoint of Microservice C?  🤔🤔🤔 
+2. How do we post a message to a REST API endpoint, and what is the difference between HttpClient and RestTemplate?  🤔🤔🤔 
+3. What is the difference between CrudRepository and JpaRepository?  🤔🤔🤔 
+4. What is the difference between SessionFactory and EntityManager?  🤔🤔🤔 
+5. In Spring JPA, what does it internally use: SessionFactory or EntityManager?  🤔🤔🤔 
+6. In Hibernate, what do we use: SessionFactory or EntityManager? 
 7. Suppose you consume a Kafka message in XML, convert it, and publish it to a downstream Kafka topic, but while doing this, the data is persisted in the database and the message is not published to the Kafka topic due to some error. How do you roll back the database data? How do you handle this scenario in a microservice?
-8. How does Spring communicate with the database? How does Spring Data JPA do the same?
+8. How does Spring communicate with the database? How does Spring Data JPA do the same?  🤔🤔🤔 
 9. How do you control the number of users who can access your microservice? Suppose there are billions of users, but you want only 10K users to be able to access the service.
-10. How do you store user details and passwords in AWS?
-11. How does pagination work in Spring Boot? How does Spring Boot and the database know that only 10 records should be fetched and displayed at a time? Explain the internal working and flow from the Controller to the Service and Repository levels.
-12. Suppose you have to design a flow where a message has to be put at a place from where 5 different microservices can read those messages asynchronously. Now, what approaches can we take here, and why?
-13. How does Spring Boot decide which auto-configuration to apply?
-14. What happens internally when you add the spring-boot-starter-web dependency?
-15. Why does Spring Boot prefer convention over configuration?
-16. What is the exact startup flow of a Spring Boot application?
+10. How do you store user details and passwords in AWS?  🤔🤔🤔 
+11. How does pagination work in Spring Boot? How does Spring Boot and the database know that only 10 records should be fetched and displayed at a time? Explain the internal working and flow from the Controller to the Service and Repository levels.  🤔🤔🤔 
+12. Suppose you have to design a flow where a message has to be put at a place from where 5 different microservices can read those messages asynchronously. Now, what approaches can we take here, and why?  🤔🤔🤔 
+13. How does Spring Boot decide which auto-configuration to apply? 
+14. What happens internally when you add the spring-boot-starter-web dependency?  🤔🤔🤔 
+15. Why does Spring Boot prefer convention over configuration?  🤔🤔🤔 
+16. What is the exact startup flow of a Spring Boot application?  👈👈👈👈👈
 17. What will happen if you define @Controller, @Service, and @Repository over the same class?
 18. How does Spring Boot detect the embedded Tomcat and configure it?
 19. How do we configure a health check in a Spring Boot application?

@@ -2,7 +2,7 @@ https://www.linkedin.com/posts/pradyumna-khot-javadeveloper_honeybee-vimannagar-
 
 Company name : Honey Bee  
 Java Full Stack Interview Questions  
-  
+
 Sharing some of the Java, Spring Boot, Microservices, and Angular interview questions discussed during my interview experience at Honey Bee, Viman Nagar.  
   
 🏗️ Microservices  
@@ -28,9 +28,8 @@ Sharing some of the Java, Spring Boot, Microservices, and Angular interview ques
   
 ☕ Java 8  
   
-5. How do you calculate the frequency of elements in a list using Java 8?  
-  
-6. What is return in Java?  
+1. How do you calculate the frequency of elements in a list using Java 8?  
+2. What is return in Java?  
 * What is the purpose of the return statement?  
 * Difference between returning a value and using return; in a void method.  
   
@@ -52,19 +51,16 @@ Sharing some of the Java, Spring Boot, Microservices, and Angular interview ques
 * What are their differences and use cases?  
   
 📁 Files  
-  
-10. Custom files vs normal files  
-  
+1. Custom files vs normal files  
 * What is meant by custom file handling?  
 * How are custom files different from normal/static files?  
 * How would you handle them in an application?  
-  
-💡 Interview Takeaway  
-  
+
+---
+
+- 💡 Interview Takeaway  
 The discussion covered a combination of Microservices communication, Angular, Java 8 Streams, Spring Bean Scopes, Spring IoC containers, and file handling.  
-  
 These questions are a good reminder that Java Full Stack interviews can cover multiple layers of an application—from frontend component lifecycle to backend service communication and Spring’s dependency management.  
-  
 Sharing these questions to help fellow developers preparing for their upcoming Java Full Stack / Spring Boot / Microservices interviews. 🚀  
   
 Keep Learning | Keep Coding | Keep Growing!
