@@ -1,3 +1,7 @@
+---
+tags:
+  - todo
+---
 
 https://www.linkedin.com/feed/update/urn:li:activity:7510636685941112833/
   

@@ -1,3 +1,8 @@
+---
+tags:
+  - todo
+---
+
 - [x] [[Accenture]]  
 - [x] [[Altimetrik]]  
 - [x] [[Americian Express]]  

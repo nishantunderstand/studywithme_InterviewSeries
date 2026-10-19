@@ -1,8 +1,3 @@
----
-tags:
-  - L1
----
-
 Interview Accenture Interview-1
 1. what i did in my project and how I did it?
 2. react scenio based questions if backend sends you data how you consume it and put modal on frontend based on data availability
