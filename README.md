@@ -1,4 +1,6 @@
-![Interview Series Day 1](../Image/InterviewSeriesWorkspaceBanner.png)
+
+![Interview Series Day 1](/Image/InterviewSeriesWorkspaceBanner.png)
+
 
 Thankful
 - https://www.linkedin.com/my-items/saved-posts/ (My Own Saved Post)
