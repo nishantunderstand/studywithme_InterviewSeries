@@ -14,7 +14,7 @@ tags:
 - [x] [[Comviva]]  
 - [x] [[Datatex]]  
 - [x] [[Delhivery]]  
-- [x] [[Deloite]]  
+- [x] [[Deloitte]]  
 - [x] [[EPAM]]  
 - [x] [[EY]]  
 - [x] [[Flipkart]]  
