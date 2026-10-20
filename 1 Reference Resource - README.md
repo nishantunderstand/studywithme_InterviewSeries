@@ -32,6 +32,11 @@
 
 ---
 
+![CJD-Profile](/Image/CJD-Profile-Pic.png)
 
-![CJD](/Image/CJD-Welcome-Banner.svg)
+
+---
+
+
+![CJD-Welcome-Banner](/Image/CJD-Welcome-Banner.svg)
 
