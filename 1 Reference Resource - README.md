@@ -30,17 +30,8 @@
 
 - [Company-Wise Interview Questions – GitHub](https://github.com/CJDCommunity/Resources-/tree/main/Interview_Questions/Company_Wise_Interview_Questions)
 
-
-
-
-
----
-
-![CJD](../Image/CJD-Welcome.svg.png)
-
-
-
 ---
 
 
-![[CJD-Welcome.svg]]
+![CJD](/Image/CJD-Welcome-Banner.svg)
+
