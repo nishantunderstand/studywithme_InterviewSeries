@@ -12,7 +12,6 @@
 
 
 ---
-
 # CJD Community
 
 - [LinkedIn – CJD Community](https://www.linkedin.com/company/cjd-community/posts/?feedView=all)
@@ -26,11 +25,6 @@
 ## Interview Preparation Resources
 
 - [Company-Wise Interview Questions – GitHub](https://github.com/CJDCommunity/Resources-/tree/main/Interview_Questions/Company_Wise_Interview_Questions)
-
----
-
-
-
 
 ---
 
