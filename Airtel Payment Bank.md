@@ -1,7 +1,3 @@
----
-tags:
-  - todo
----
 
 
 https://www.linkedin.com/posts/pyasprasad_airtel-interviewexperience-java-share-7461628340051816449-vEBg/

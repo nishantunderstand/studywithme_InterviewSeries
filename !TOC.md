@@ -1,8 +1,5 @@
----
-tags:
-  - todo
----
 
+- [x] [[Airtel Payment Bank]]
 - [x] [[Accenture]]  
 - [x] [[Altimetrik]]  
 - [x] [[Americian Express]]  
@@ -20,10 +17,10 @@ tags:
 - [x] [[Flipkart]]  
 - [x] [[Honey Bee]]
 - [x] [[HCL]]  
-- [ ] [[Infosys]]  
-- [ ] [[IntraEdge]]  
-- [ ] [[JPMorgan]]  
-- [ ] [[Logixal]]  
+- [x] [[Infosys]]  
+- [x] [[IntraEdge]]  
+- [x] [[JPMorgan]]  
+- [x] [[Logixal]]  
 - [ ] [[MasterCard]]  
 - [ ] [[Mphasis]]  
 - [ ] [[NTT DATA]]  

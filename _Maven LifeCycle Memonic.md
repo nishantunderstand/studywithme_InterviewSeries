@@ -1,9 +1,6 @@
 
 Explain Maven Lifecycle.  🤔🤔🤔 
-
 - You need to read it by Memonic Otherwise it is going to be tough
-
-“Very Clever Tigers Test Packages, Verify Installation, Deploy!”
 
 “Very Clever Tigers Test Packages, Verify Installation, Deploy!”
 - V — Validate
