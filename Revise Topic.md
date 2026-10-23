@@ -1,3 +1,50 @@
+
+
+- Can a record extend another class?
+- Does a record compare objects using `==`?
+- Are records suitable for DTOs?
+- Can we override `equals()` and `hashCode()`?
+
+---
+
+| Feature                      | Inheritance                   | Composition                                       |
+| ---------------------------- | ----------------------------- | ------------------------------------------------- |
+| Relationship                 | IS-A                          | HAS-A                                             |
+| Java mechanism               | `extends`                     | Object field/reference                            |
+| Code reuse                   | Inherits accessible behavior  | Delegates to another object                       |
+| Coupling                     | Often tighter                 | Often more flexible                               |
+| Runtime flexibility          | Limited by class hierarchy    | Dependencies can often be replaced                |
+| Multiple reuse relationships | Single class inheritance      | Can combine multiple objects                      |
+| Best suited for              | Genuine subtype relationships | Building functionality from collaborating objects |
+
+Multiple Catch + Pipe Operator 
+
+```
+Map<String, Integer> map = new HashMap<>();
+
+map.put(null, 100);
+map.put(null, 200);
+
+System.out.println(map.size()); // 1
+System.out.println(map.get(null)); // 200
+```
+
+Chaining and Duplicate Key 
+
+
+8. What is Prototype Scope?
+    * How is it different from Singleton?
+    * When would you use prototype-scoped beans?
+9. ApplicationContext vs BeanFactory
+    * What is ApplicationContext?
+    * What is BeanFactory?
+    * What are their differences and use cases?
+
+
+
+
+---
+
 Q4. What is Schema Registry? 🤔🤔🤔
 
 | Interview question                                    | Key point to answer                                                         |
@@ -231,3 +278,328 @@ Q13. How do you handle database transactions across microservices?
 
 
 ---
+
+
+Note: Java does not provide a standard `AtomicFloat` class. For floating-point values, alternatives include `AtomicReference<Float>` or `DoubleAdder` for appropriate use cases.
+
+- What are the other things does it support ?
+
+---
+
+8. What is distributionManagement in pom.xml? 🤔
+Does it mean nexus Repo ?
+
+
+9. Java 17 Features
+- Records — concise data carrier classes.
+- Sealed classes — restrict permitted subclasses.
+- Pattern matching for instanceof — simplifies type checks.
+- Text blocks — multiline strings.
+- Switch expressions — return values from switch.
+- Helpful NullPointerExceptions — clearer NPE messages.
+- Strong encapsulation of JDK internals — improved platform integrity.
+
+Can `var` be used as a generic type? No.
+
+
+- Return only required fields using DTOs or projections.
+
+2. DSA: Print yes if 5 consecutive vowels exist; otherwise no
+
+```
+Function<String, Integer> f = s -> s.length();
+System.out.println(f.apply("Java")); // 4
+
+Supplier<Double> s = () -> Math.random();
+System.out.println(s.get());
+```
+
+
+## 9. Print `NA` if employee address is null
+```
+employees.stream()
+    .forEach(e -> System.out.println(
+        e.getName() + " : " +
+        Objects.toString(e.getAddress(), "NA")
+    ));
+```
+
+
+### What are TDD and BDD?
+
+- TDD (Test-Driven Development): Write a failing test, implement the code, then refactor — red, green, refactor.
+- BDD (Behavior-Driven Development): Define and test expected behavior using scenarios, often written as Given–When–Then.
+
+### 15. Can HashMap keys be mutable?
+
+
+### 17. Run code before a Spring bean is used
+
+
+### 9. What happens when an exception occurs during a transaction?
+
+“By default, Spring rolls back for unchecked exceptions and `Error`, but not checked exceptions. We can customize this using `rollbackFor`.”
+
+
+15. Generics: `extends` vs `super`
+
+- `? extends T`: suitable when reading values as type `T`.
+- `? super T`: suitable when adding values of type `T`.
+
+## 1. `Optional.of()` vs `Optional.ofNullable()`
+
+## 1. `isPresent()` vs `ifPresent()`
+
+
+### 3. `orElse()` vs `orElseGet()` 🤔
+
+- `orElse()` evaluates `getDefault()` even when the value exists.    
+- `orElseGet()` evaluates the supplier only when the Optional is empty.
+Remember: `orElse` = eager; `orElseGet` = lazy.
+
+
+### A. Reverse order, distinct integers, odd first then even
+```
+List<Integer> result = numbers.stream()
+    .distinct()
+    .sorted(Comparator.reverseOrder())
+    .sorted(Comparator.comparingInt(n -> n % 2 == 0 ? 1 : 0))
+    .toList();
+```
+
+
+3. ISO 8583
+
+Find a file in a subdirectory
+```
+try (var paths = Files.walk(Path.of("rootDirectory"))) {
+    paths.filter(Files::isRegularFile)
+         .filter(p -> p.getFileName().toString().equals("target.txt"))
+         .forEach(System.out::println);
+}
+```
+
+
+
+```
+@GetMapping("/employees")
+public Page<Employee> getEmployees(
+        @RequestParam(defaultValue = "0") int page,
+        @RequestParam(defaultValue = "10") int size,
+        @RequestParam(defaultValue = "name") String sortBy) {
+
+    Pageable pageable = PageRequest.of(
+        page, size, Sort.by(sortBy).ascending()
+    );
+
+    return employeeRepository.findAll(pageable);
+}
+```
+
+
+---
+
+Q9. How would you design a scalable REST API in Spring Boot for high traffic?
+I would focus on performance, scalability, reliability, and maintainability.
+1. Stateless design: Use REST principles and JWT or OAuth2 for authentication.
+2. Database optimization: Use proper indexing, connection pooling, and optimized queries.
+3. Caching: Use Redis to reduce repeated database calls.
+4. Pagination: Avoid returning large datasets in a single response.
+5. Asynchronous processing: Use Kafka or RabbitMQ for background tasks.
+6. Horizontal scaling: Deploy multiple instances behind a load balancer.
+7. Resilience: Apply timeouts, retries with backoff, and circuit breakers.
+8. Monitoring: Use Actuator, Micrometer, and centralized logging.
+
+---
+
+17. Can an immutable object become mutable?
+18. Relationship between immutability and thread safety
+19. Saga Pattern vs @Transactional
+
+- Integer Caching.
+16. Sort a HashMap by Key using Streams
+
+17. Database query suddenly becomes slow — how identify bottleneck?
+18. Kafka consumers are lagging — how investigate?
+
+- Functional Interface Predicate, Consumer add them.
+
+- SOLID Principle Example Of All of them 
+
+2. Youngest employee in each department
+3. Count employees department-wise
+4. Second-highest salary with duplicates
+
+- OAuth 2.0 vs JWT
+
+- HATEOAS Hypermedia as the Engine of Application State.
+
+- Department-wise employee count
+
+1. ArrayList vs LinkedList
+
+2. How do you handle Time Zones in Java?
+3. Orders in last 12 months from customers with ≥3 orders
+
+REQUIRED
+→ Join existing transaction
+→ Otherwise create one
+
+REQUIRES_NEW
+→ Suspend existing transaction
+→ Create new transaction
+
+SUPPORTS
+→ Join if one exists
+→ Otherwise execute without transaction
+
+MANDATORY
+→ Existing transaction required
+
+NOT_SUPPORTED
+→ Execute without transaction
+
+- Working of HashMap and ConcurrentHashMap
+
+3. How make a Java class thread-safe?
+
+Approaches:
+
+- Immutability
+- synchronized
+- Lock
+- Atomic classes
+- Concurrent collections
+- Avoid shared mutable state
+
+7. Serialize and deserialize an object
+
+- ClassLoader Hierarchy, You need to understand it.
+
+12. Internal working of JVM
+
+13. Sealed Classes
+14. Sealed Interface 
+15. How this is different from Interface
+16. I need to understand in term of ASCII.
+
+- RetranctLock : WriteCode for it 
+
+- Caching can hurt when:
+- Data changes frequently
+- Cache hit rate is low
+- Objects are large
+- Invalidation is expensive
+- Memory pressure increases
+- Stale data is unacceptabl
+
+- 🔥 20. p99 latency: 80ms → 2 seconds
+
+- ACID vs BASE vs Eventual Consistency
+
+2. How identify whether issue is Application, DB, Kafka, or downstream?
+
+3. Functional and non-functional requirements for REST API
+
+4. 100 records, only 8 threads — process all and wait
+
+- Future.get() vs CompletableFuture
+
+15. Why custom ExecutorService with CompletableFuture?
+
+16. What makes FinTech technically different?
+
+17. Prevent duplicate transaction when client retries
+
+18. Should DB Connection be Singleton?
+
+19. BufferedInputStream vs BufferedOutputStream
+
+20. What are Filter Streams?
+
+- [ ] BufferedInputStream
+- [ ] BufferedOutputStream
+- [ ] DataInputStream
+- [ ] DataOutputStream
+
+8. Encryption vs Decryption
+
+9. What is RSA and where used?
+
+- CSRF Example 
+
+13. OAuth vs OAuth 2.0
+
+14. Configure multiple databases in Spring Boot
+
+15. Generics — extends vs super
+- PECS
+
+27. Database Indexes
+
+28. Composite Key
+
+29. Employees earning more than their manager
+
+☕ Java Streams
+3️⃣1️⃣ Given a list of integers:
+👉 Reverse the order
+👉 Keep distinct values
+👉 Place odd numbers first
+👉 Place even numbers after them
+💻 Coding Round
+
+1️⃣ 10% hike for employees who joined after 2024
+
+HashMap vs IdentityHashMap
+
+HashMap        → logical equality
+IdentityHashMap → object identity
+
+Memory Leak Common Reason
+
+Common causes:
+
+Static collections
+Unbounded caches
+Listeners not removed
+ThreadLocal misuse
+Resources not closed
+
+1️⃣3️⃣ Access private fields/methods in tests
+How to enable Caching in SpringBoot ?
+1️⃣6️⃣ Can Spring create a bean for abstract class?
+5️⃣ Why Kafka for asynchronous operations?
+Kafka 1️⃣4️⃣ Cluster Metadata
+1️⃣5️⃣ How Kafka supports scalability?
+1️⃣6️⃣ Kafka broker goes down?
+1️⃣8️⃣ How Kafka ensures data consistency?
+1️⃣9️⃣ Kafka retention
+2. Top 3 salaries per department
+3. Kafka consumer crashes before offset commit
+
+7️⃣ API latency suddenly increases
+Use a measurement-first approach:
+
+1️⃣1️⃣ Can outside classes access hidden data?
+6️⃣ IoC vs Dependency Injection
+3️⃣ Second-highest number
+3️⃣ Exception Handling + Advisor
+
+Advisor in Spring AOP is related to combining:
+Pointcut → where advice applies
+Advice → what action to perform
+Advisor
+├── Pointcut → WHERE
+└── Advice   → WHAT
+
+Spring 9️⃣ Scheduling
+11. Why service names instead of IPs?
+Use API Gateway/BFF or an aggregator service.
+Coding — City With Highest Repeated Character Count
+Find the city whose single character occurs the maximum number of times.
+12. Query Optimization Techniques
+GC Roots
+13. Dependency and Artifact
+Java 8 → Java 17
+14. How do you call an external API?
