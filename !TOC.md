@@ -28,7 +28,7 @@
 - [ ] [[Optum]]  
 - [ ] [[Oracle]]  
 - [ ] [[PhonePe]]  
-- [ ] [[README]]  
+- [ ] [[Excalidraw/README]]  
 - [ ] [[Synchron]]  
 - [ ] [[Tech Mahindra]]  
 - [ ] [[Wissen]]  

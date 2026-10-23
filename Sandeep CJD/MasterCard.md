@@ -7,24 +7,23 @@ Here’s what was covered:
 - 🔥 API Gateway & Authentication flow
 - 🔥 Authentication vs Authorization (with practical use cases)
 - 🔥 Microservices architecture discussion
-- 🔥 @Transactional → what actually rolls back? (tricky!)
+- 🔥 @Transactional → what actually rolls back? (tricky!) 
 - 🔥 SAGA pattern & distributed transactions
-- 🔥 Garbage Collector internals
+- 🔥 Garbage Collector internals  🤔🤔🤔 
 - 🔥 Caching strategies (Redis, cache-aside)
 - ⚡ Kafka Deep Dive:
-
-- Delivery semantics (at least once, exactly once)  🤔🤔🤔 
-- Consumer failure handling  🤔🤔🤔 
-- DLQs (Dead Letter Queues)
-- Schema Registry  🤔🤔🤔 
-- Kafka vs ActiveMQ  🤔🤔🤔 
+	- Delivery semantics (at least once, exactly once)  🤔🤔🤔 
+	- Consumer failure handling  🤔🤔🤔 
+	- DLQs (Dead Letter Queues)
+	- Schema Registry  🤔🤔🤔 
+	- Kafka vs ActiveMQ  🤔🤔🤔 
 
 🧠 Design & Coding:
 - Identify problem in if-else heavy code
 - Apply Strategy + Factory Pattern
 - Serialization & serialVersionUID  🤔🤔🤔 
-- Making a class immutable
-- @ConditionalOnProperty usage 
+- Making a class immutable 
+- @ConditionalOnProperty usage   🤔🤔🤔 
 
 💻 Coding Question:
 - ➡️ Find common elements in 2 lists
