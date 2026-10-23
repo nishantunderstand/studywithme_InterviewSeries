@@ -1,4 +1,3 @@
-
 Explain Maven Lifecycle.  🤔🤔🤔 
 - You need to read it by Memonic Otherwise it is going to be tough
 
