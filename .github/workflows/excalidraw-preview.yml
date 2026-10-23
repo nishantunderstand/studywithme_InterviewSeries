@@ -1,0 +1,44 @@
+
+name: Generate Excalidraw Previews
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Excalidraw/**/*.excalidraw.md'
+      - 'scripts/generate-excalidraw-previews.mjs'
+      - '.github/workflows/excalidraw-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-previews:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Generate Excalidraw PNG previews
+        run: |
+          npm install --global @excalidraw/cli
+          node scripts/generate-excalidraw-previews.mjs
+
+      - name: Commit generated previews
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update Excalidraw previews"
+          file_pattern: 'Excalidraw/Preview/*.png'
