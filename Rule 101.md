@@ -28,3 +28,16 @@ SUPPORT.md	Explains where to get help
 FUNDING.yml	Configures sponsorship links (stored in .github/)
 AUTHORS.md	Lists project authors and contributors
 FAQ.md	Frequently asked questions
+
+|File|GitHub tab visible?|
+|---|---|
+|`README.md`|✅ Yes|
+|`CODE_OF_CONDUCT.md`|✅ Yes|
+|`CONTRIBUTING.md`|✅ Yes|
+|`LICENSE` / `LICENSE.md`|✅ Yes|
+|`SECURITY.md`|✅ Yes|
+|`CHANGELOG.md`|❌ No standard tab|
+|`SUPPORT.md`|❌ No standard tab|
+|`AUTHORS.md`|❌ No standard tab|
+|`FAQ.md`|❌ No standard tab|
+|`.github/FUNDING.yml`|❌ No tab (may show a Sponsor button)|
