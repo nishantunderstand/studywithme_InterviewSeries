@@ -4,15 +4,15 @@
 
 Thankful
 - https://www.linkedin.com/my-items/saved-posts/ (My Own Saved Post)
-
 - https://www.linkedin.com/company/cjd-community/posts/?feedView=all (Best)
 - https://github.com/CJDCommunity/Resources-/tree/main/Interview_Questions/Company_Wise_Interview_Questions (Best)
-
 - https://www.linkedin.com/in/i-am-madhuk/
 - https://www.linkedin.com/in/naushad-a-93081b179/
 - https://www.linkedin.com/in/sweety-sharma-sde/
 - https://www.linkedin.com/in/yash-shah-java-fullstack-developer/recent-activity/all/
-
+- Periodic Sync 
+- Every Month
+- Always Add new Content to the Top.
 ---
 - [Interview Series TOC](!TOC.md)
 - Accenture

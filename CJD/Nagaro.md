@@ -9,9 +9,9 @@ Interview Nagaro 2026
 - Validation in Java 
 - Pros cons of AI coding 
 - Spring cloud 
-- Service repo controller   🤔🤔🤔 
-- Http methods  🤔🤔🤔 
+- Service repo controller  
+- Http methods 
 - Solid
 - Lazy eager
-- Mock vs mock bean   🤔🤔🤔 
+- Mock vs mock bean  
 - Jenkins

@@ -9,21 +9,21 @@ Here’s what was covered:
 - 🔥 Microservices architecture discussion
 - 🔥 @Transactional → what actually rolls back? (tricky!) 
 - 🔥 SAGA pattern & distributed transactions
-- 🔥 Garbage Collector internals  🤔🤔🤔 
+- 🔥 Garbage Collector internals 
 - 🔥 Caching strategies (Redis, cache-aside)
 - ⚡ Kafka Deep Dive:
-	- Delivery semantics (at least once, exactly once)  🤔🤔🤔 
-	- Consumer failure handling  🤔🤔🤔 
+	- Delivery semantics (at least once, exactly once) 
+	- Consumer failure handling 
 	- DLQs (Dead Letter Queues)
-	- Schema Registry  🤔🤔🤔 
-	- Kafka vs ActiveMQ  🤔🤔🤔 
+	- Schema Registry 
+	- Kafka vs ActiveMQ 
 
 🧠 Design & Coding:
 - Identify problem in if-else heavy code
 - Apply Strategy + Factory Pattern
-- Serialization & serialVersionUID  🤔🤔🤔 
+- Serialization & serialVersionUID 
 - Making a class immutable 
-- @ConditionalOnProperty usage   🤔🤔🤔 
+- @ConditionalOnProperty usage  
 
 💻 Coding Question:
 - ➡️ Find common elements in 2 lists
