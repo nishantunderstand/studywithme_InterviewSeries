@@ -15,8 +15,8 @@ I recently gave my interview at Airtel, and here are the key areas/questions tha
   
 - How @RequestBody works internally  
 - End-to-end flow: Entity → JPA → Hibernate → SQL → Table creation  
-- Why we use @Service and @Repository, and what Spring does differently with them   🤔🤔🤔 
-- What happens if both @Service and @Repository are used on the same class   🤔🤔🤔 
+- Why we use @Service and @Repository, and what Spring does differently with them  
+- What happens if both @Service and @Repository are used on the same class  
   
 🔹 Java & Concurrency  
   
@@ -26,15 +26,15 @@ I recently gave my interview at Airtel, and here are the key areas/questions tha
   
 🔹 Microservices Concepts  
   
-- Role of an API Gateway in microservices setup   🤔🤔🤔 
+- Role of an API Gateway in microservices setup  
   
 🔹 Coding / Hands-On  
   
 - 2Sum & 3Sum Problems  
-- Filtering Employees by Salary using Java Streams   🤔🤔🤔 
+- Filtering Employees by Salary using Java Streams  
 - Average Salary Calculation  
-- Grouping Employees by Department (Streams + SQL follow-up)   🤔🤔🤔 
-- Self Join in SQL and real use cases   🤔🤔🤔 
+- Grouping Employees by Department (Streams + SQL follow-up)  
+- Self Join in SQL and real use cases  
   
 🔹 Java Basics Check  
   
@@ -98,32 +98,32 @@ https://www.linkedin.com/posts/saravanan-venkat-41283a125_airtel-digital-intervi
 🔥 Recent Interview Questions (December 2025)
 
 🧩 DSA
-- 1️⃣ Given a rotated sorted array, find the target using modified binary search (optimize from brute force to O(log N))   🤔🤔🤔 
+- 1️⃣ Given a rotated sorted array, find the target using modified binary search (optimize from brute force to O(log N))  
 - 2️⃣ Given a stream of request latencies, find the longest time window where SLA (latency < X ms) is maintained, handling out-of-order events.
 
 🔖 Core Java & Concurrency
-- 3️⃣ How does Java handle multithreading guarantees? Discuss memory visibility and happens-before semantics.  🤔🤔🤔 
-- 4️⃣ Explain how ConcurrentHashMap achieves thread safety internally and why HashMap isn’t thread-safe in concurrent contexts.  🤔🤔🤔 
-- 5️⃣ Your JVM heap usage spikes under load — how do you identify memory leaks even when GC is running normally?  🤔🤔🤔 
+- 3️⃣ How does Java handle multithreading guarantees? Discuss memory visibility and happens-before semantics. 
+- 4️⃣ Explain how ConcurrentHashMap achieves thread safety internally and why HashMap isn’t thread-safe in concurrent contexts. 
+- 5️⃣ Your JVM heap usage spikes under load — how do you identify memory leaks even when GC is running normally? 
 - 6️⃣ How do virtual threads (Project Loom) improve backend throughput? 
 
 🔗 Spring Boot
 - 7️⃣ Explain Spring Boot auto-configuration and how conditional annotations drive configuration selection.
-- 8️⃣ A microservice’s @Transactional boundaries are not taking effect in production — how do you debug proxying and propagation issues?  🤔🤔🤔 
-- 9️⃣ Differences between @ControllerAdvice and exception handling patterns in enterprise REST APIs.  🤔🤔🤔 
-- 🔟 How would you build idempotent POST endpoints in Spring Boot (e.g., payment creation)?  🤔🤔🤔 
+- 8️⃣ A microservice’s @Transactional boundaries are not taking effect in production — how do you debug proxying and propagation issues? 
+- 9️⃣ Differences between @ControllerAdvice and exception handling patterns in enterprise REST APIs. 
+- 🔟 How would you build idempotent POST endpoints in Spring Boot (e.g., payment creation)? 
 
 📚 Kafka & Messaging
 - 1️⃣1️⃣ Explain Kafka delivery guarantees: at-most-once, at-least-once, exactly-once (idempotent producers, transactional writes)
-- 1️⃣2️⃣ Kafka consumers are lagging under peak traffic — how do you diagnose and fix throughput bottlenecks (partitions, consumer groups, backpressure)?  🤔🤔🤔 
+- 1️⃣2️⃣ Kafka consumers are lagging under peak traffic — how do you diagnose and fix throughput bottlenecks (partitions, consumer groups, backpressure)? 
 - 1️⃣3️⃣ How do you handle safe message reprocessing if a consumer fails mid-transaction? 
-- 1️⃣4️⃣ Trade-offs between Kafka vs Redis Pub/Sub for event streaming.  🤔🤔🤔 
+- 1️⃣4️⃣ Trade-offs between Kafka vs Redis Pub/Sub for event streaming. 
 
 📈 Monitoring, SLAs & Operational Excellence
-- 1️⃣5️⃣ What are API SLAs, and how do you enforce them at runtime? (Prometheus + Grafana)  🤔🤔🤔 
-- 1️⃣6️⃣ You observe intermittent latency spikes — how do you design monitoring, alerting, and dashboards to identify patterns?  🤔🤔🤔 
-- 1️⃣7️⃣ How do you integrate ELK / EFK for centralized logging and faster incident diagnosis?  🤔🤔🤔 
-- 1️⃣8️⃣ Explain circuit breakers and retries (e.g., Resilience4j) and how they protect backend services.  🤔🤔🤔 
+- 1️⃣5️⃣ What are API SLAs, and how do you enforce them at runtime? (Prometheus + Grafana) 
+- 1️⃣6️⃣ You observe intermittent latency spikes — how do you design monitoring, alerting, and dashboards to identify patterns? 
+- 1️⃣7️⃣ How do you integrate ELK / EFK for centralized logging and faster incident diagnosis? 
+- 1️⃣8️⃣ Explain circuit breakers and retries (e.g., Resilience4j) and how they protect backend services. 
 
 🧱 System Design & Architecture
 - 1️⃣9️⃣ Design a near real-time data pipeline with sub-second freshness
@@ -189,14 +189,14 @@ enable.idempotence=true
 
 We configured **Grafana alerts** for latency spikes and downtime anomalies.
 
-✅ **Takeaway:** Always link tools with metrics like _latency_, _throughput_, or _error rate_ — it shows awareness of SLAs.  🤔🤔🤔 
+✅ **Takeaway:** Always link tools with metrics like _latency_, _throughput_, or _error rate_ — it shows awareness of SLAs. 
 
 ### 🧠 3. API SLAs and Performance
 
 > **_Q:_** _What is an SLA for an API, and how do you ensure it’s met?_
 
 **Answer:**  
-SLA (Service Level Agreement) defines guarantees such as **uptime**, **response time**, and **error tolerance**.  🤔🤔🤔 
+SLA (Service Level Agreement) defines guarantees such as **uptime**, **response time**, and **error tolerance**. 
 
 To ensure SLAs:
 

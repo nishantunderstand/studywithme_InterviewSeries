@@ -1,4 +1,14 @@
+## 19. `thenApply()` vs `thenCompose()` vs `thenCombine()` 🤔🤔🤔
 
+## 15. CopyOnWriteArrayList: When to use it? 🤔🤔🤔
+
+## 8. Correct use and misuse of `Optional` 🤔🤔🤔
+
+## 9. Reflection API and performance trade-offs 🤔🤔🤔
+
+## 11. How can inheritance instead of composition break design? 🤔🤔🤔
+
+---
 
 - Can a record extend another class?
 - Does a record compare objects using `==`?
@@ -31,7 +41,6 @@ System.out.println(map.get(null)); // 200
 
 Chaining and Duplicate Key 
 
-
 8. What is Prototype Scope?
     * How is it different from Singleton?
     * When would you use prototype-scoped beans?
@@ -39,9 +48,6 @@ Chaining and Duplicate Key
     * What is ApplicationContext?
     * What is BeanFactory?
     * What are their differences and use cases?
-
-
-
 
 ---
 
@@ -57,7 +63,6 @@ Q4. What is Schema Registry? 🤔🤔🤔
 | How do you secure APIs?                               | TLS, token validation, authorization checks, and least privilege            |
 | How do you improve a slow database query?             | Execution plan, indexing, query optimization, and connection-pool analysis  |
 
-
 What is difference between BDD and TDD
 
 I knew few questions, 
@@ -69,10 +74,7 @@ What are the tools we use for load and stress testing
 
 What is difference between BDD and TDD
 
-
-
 ---
-
 
 | `findById(id)`                                         | `getReferenceById(id)`                                                      |
 | ------------------------------------------------------ | --------------------------------------------------------------------------- |
@@ -81,12 +83,8 @@ What is difference between BDD and TDD
 | Returns `Optional.empty()` if not found                | May throw `EntityNotFoundException` when the proxy is accessed if not found |
 | Best for checking whether an employee exists           | Best when you need a reference, e.g. setting a relationship                 |
 
-
 ---
 No, `ReentrantLock` cannot be directly used with try-with-resources because it does not implement `AutoCloseable`.
-
-
-
 
 1.3 Java Memory Model
 The Java Memory Model (JMM) defines how threads interact through memory and which writes are guaranteed to be visible to other threads.
@@ -96,9 +94,6 @@ Key concepts:
 - Atomicity: Whether an operation happens indivisibly.
 - Ordering: Which operations are guaranteed to occur before others.
 - Happens-before: A relationship that guarantees visibility and ordering.
-
-
-
 
 Weakly consistent iterators
 
@@ -145,21 +140,14 @@ Message Converter
 ExternalUser Java Object
 ```
 
-
-
-
-
 ```
 String s = "HelloWorld";
 System.out.println(s.substring(5, 3));
 ```
 
-
-
 ### 3. How does React.js communicate with Spring Boot? 🤔
 
 React sends HTTP requests to Spring Boot using `fetch()` or Axios. Spring Boot exposes REST APIs that return JSON
-
 
 ### 4.2 Can a record extend another class? 🤔
 
@@ -168,7 +156,6 @@ No. A record implicitly extends `java.lang.Record`, so it cannot extend another 
 ### 4.3 Can a record implement an interface? 🤔
 
 Yes.
-
 
 ### 4.4 Are record classes immutable? 🤔
 
@@ -180,9 +167,7 @@ record Employee(List<String> skills) {}
 
 The `skills` reference cannot be reassigned, but the referenced list can still be modified unless you make a defensive copy, such as with `List.copyOf(skills)`.
 
-
 ### 2.10 Application health check vs downstream system smoke check 🤔
-
 
 ## 2. How do we post a message to a REST API? `HttpClient` vs `RestTemplate` 🤔
 
@@ -190,39 +175,26 @@ The `skills` reference cannot be reassigned, but the referenced list can still b
 
 ## 7. Database commit succeeds, but publishing to Kafka fails. How do you roll back? 🤔
 
-
 This is a dual-write problem:
-
 
 ## 24. How does Spring Boot manage dependency versions internally? 🤔
 
 bom (bill of material)
 
-
 ---
-
-
 
 List.stream().sorted().forEach(System.out::println);
 1. Odd 
 2. Then Even 
 
-
-
 Use streams to sort an array which has odd and even numbers odd should come in first and then even numbers and odd should be sorted and even should be sorted.  🤔🤔🤔 
-
-
 
 Use streams to provide an output array which has no negatives or 0s he mentioned to use partitioning by.
 list.stream().filter(n-> n>0 ).forEach();
 
 Map<List<Integer,Boolen>> map =  List.stream().collect(PartitioningBy(n->n>0));
 
-
-
 ---
-
-
 
 Write one sql to find all the orders placed in the last 12months by the customer where the customer made at least 3 orders sorted in description order( order and customer table was give) 
 
@@ -234,32 +206,22 @@ Left or inner
 
 inner => 
 
-
-
-
 [Eclipse MAT | jvmperf: JVM Performance Workshop](https://jvmperf.net/docs/memory/mat/)
-
-
 
 Stream qn was for annagrams 
 
 TDD vs BDD 
-
 
 JVM ClassLoader reposbility
 
 In reetrant lock we use try with finally 
 Cannot we use try with resource ?
 
-
 Stream qn was for annagrams 
 
 Interview trap: Is `ConcurrentHashMap` thread-safe for every sequence of operations?
 
 ✅ **Takeaway:** Always link tools with metrics like _latency_, _throughput_, or _error rate_ — it shows awareness of SLAs.
-
-
-
 
 Q10. What is database indexing and how does it improve query performance?  
 Q11. What is a composite index and when should it be used?   🤔🤔🤔 
@@ -271,14 +233,9 @@ Q12. What is the difference between optimistic locking and pessimistic locking? 
 Add Example 
 Word Eytmology 
 
-
 Q13. How do you handle database transactions across microservices?  
 
-
-
-
 ---
-
 
 Note: Java does not provide a standard `AtomicFloat` class. For floating-point values, alternatives include `AtomicReference<Float>` or `DoubleAdder` for appropriate use cases.
 
@@ -288,7 +245,6 @@ Note: Java does not provide a standard `AtomicFloat` class. For floating-point v
 
 8. What is distributionManagement in pom.xml? 🤔
 Does it mean nexus Repo ?
-
 
 9. Java 17 Features
 - Records — concise data carrier classes.
@@ -300,7 +256,6 @@ Does it mean nexus Repo ?
 - Strong encapsulation of JDK internals — improved platform integrity.
 
 Can `var` be used as a generic type? No.
-
 
 - Return only required fields using DTOs or projections.
 
@@ -314,7 +269,6 @@ Supplier<Double> s = () -> Math.random();
 System.out.println(s.get());
 ```
 
-
 ## 9. Print `NA` if employee address is null
 ```
 employees.stream()
@@ -324,7 +278,6 @@ employees.stream()
     ));
 ```
 
-
 ### What are TDD and BDD?
 
 - TDD (Test-Driven Development): Write a failing test, implement the code, then refactor — red, green, refactor.
@@ -332,14 +285,11 @@ employees.stream()
 
 ### 15. Can HashMap keys be mutable?
 
-
 ### 17. Run code before a Spring bean is used
-
 
 ### 9. What happens when an exception occurs during a transaction?
 
 “By default, Spring rolls back for unchecked exceptions and `Error`, but not checked exceptions. We can customize this using `rollbackFor`.”
-
 
 15. Generics: `extends` vs `super`
 
@@ -350,13 +300,11 @@ employees.stream()
 
 ## 1. `isPresent()` vs `ifPresent()`
 
-
 ### 3. `orElse()` vs `orElseGet()` 🤔
 
 - `orElse()` evaluates `getDefault()` even when the value exists.    
 - `orElseGet()` evaluates the supplier only when the Optional is empty.
 Remember: `orElse` = eager; `orElseGet` = lazy.
-
 
 ### A. Reverse order, distinct integers, odd first then even
 ```
@@ -366,7 +314,6 @@ List<Integer> result = numbers.stream()
     .sorted(Comparator.comparingInt(n -> n % 2 == 0 ? 1 : 0))
     .toList();
 ```
-
 
 3. ISO 8583
 
@@ -378,8 +325,6 @@ try (var paths = Files.walk(Path.of("rootDirectory"))) {
          .forEach(System.out::println);
 }
 ```
-
-
 
 ```
 @GetMapping("/employees")
@@ -395,7 +340,6 @@ public Page<Employee> getEmployees(
     return employeeRepository.findAll(pageable);
 }
 ```
-
 
 ---
 
@@ -516,75 +460,61 @@ Approaches:
 19. BufferedInputStream vs BufferedOutputStream
 
 20. What are Filter Streams?
+- BufferedInputStream
+- BufferedOutputStream
+- DataInputStream
+- DataOutputStream
 
-- [ ] BufferedInputStream
-- [ ] BufferedOutputStream
-- [ ] DataInputStream
-- [ ] DataOutputStream
-
-8. Encryption vs Decryption
-
-9. What is RSA and where used?
-
+7. Encryption vs Decryption
+8. What is RSA and where used?
 - CSRF Example 
-
-13. OAuth vs OAuth 2.0
-
-14. Configure multiple databases in Spring Boot
-
-15. Generics — extends vs super
+7. OAuth vs OAuth 2.0
+8. Configure multiple databases in Spring Boot
+9. Generics — extends vs super
 - PECS
-
-27. Database Indexes
-
-28. Composite Key
-
-29. Employees earning more than their manager
+7. Database Indexes
+8. Composite Key
+9. Employees earning more than their manager
 
 ☕ Java Streams
 3️⃣1️⃣ Given a list of integers:
-👉 Reverse the order
-👉 Keep distinct values
-👉 Place odd numbers first
-👉 Place even numbers after them
+- 👉 Reverse the order
+- 👉 Keep distinct values
+- 👉 Place odd numbers first
+- 👉 Place even numbers after them
+
 💻 Coding Round
+- 1️⃣ 10% hike for employees who joined after 2024
 
-1️⃣ 10% hike for employees who joined after 2024
-
-HashMap vs IdentityHashMap
-
+- HashMap vs IdentityHashMap
 HashMap        → logical equality
 IdentityHashMap → object identity
 
-Memory Leak Common Reason
-
+- Memory Leak Common Reason
 Common causes:
+- Static collections
+- Unbounded caches
+- Listeners not removed
+- ThreadLocal misuse
+- Resources not closed
 
-Static collections
-Unbounded caches
-Listeners not removed
-ThreadLocal misuse
-Resources not closed
-
-1️⃣3️⃣ Access private fields/methods in tests
-How to enable Caching in SpringBoot ?
-1️⃣6️⃣ Can Spring create a bean for abstract class?
-5️⃣ Why Kafka for asynchronous operations?
-Kafka 1️⃣4️⃣ Cluster Metadata
-1️⃣5️⃣ How Kafka supports scalability?
-1️⃣6️⃣ Kafka broker goes down?
-1️⃣8️⃣ How Kafka ensures data consistency?
-1️⃣9️⃣ Kafka retention
+- 1️⃣3️⃣ Access private fields/methods in tests
+- How to enable Caching in SpringBoot ?
+- 1️⃣6️⃣ Can Spring create a bean for abstract class?
+- 5️⃣ Why Kafka for asynchronous operations?
+- Kafka 1️⃣4️⃣ Cluster Metadata
+- 1️⃣5️⃣ How Kafka supports scalability?
+- 1️⃣6️⃣ Kafka broker goes down?
+- 1️⃣8️⃣ How Kafka ensures data consistency?
+- 1️⃣9️⃣ Kafka retention
 2. Top 3 salaries per department
 3. Kafka consumer crashes before offset commit
 
-7️⃣ API latency suddenly increases
-Use a measurement-first approach:
-
-1️⃣1️⃣ Can outside classes access hidden data?
-6️⃣ IoC vs Dependency Injection
-3️⃣ Second-highest number
-3️⃣ Exception Handling + Advisor
+- 7️⃣ API latency suddenly increases Use a measurement-first approach:
+- 1️⃣1️⃣ Can outside classes access hidden data?
+- 6️⃣ IoC vs Dependency Injection
+- 3️⃣ Second-highest number
+- 3️⃣ Exception Handling + Advisor
 
 Advisor in Spring AOP is related to combining:
 Pointcut → where advice applies
