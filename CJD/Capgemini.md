@@ -1,3 +1,44 @@
+🚀 Capgemini Java Developer Interview Experience | 5+ Years of Experience  
+  
+Preparing for a Java Backend Developer interview? Here are some questions asked in a recent Capgemini interview experience shared by a fellow developer. 👇  
+  
+📌 Interview Questions  
+  
+🔹 Core Java & Collections  
+  
+1. Introduce yourself.  
+2. How does HashMap work internally?  
+3. What are the Java Collections Framework and Stream API?  
+4. Write a Java 8 Stream program to find the second-highest-paid employee.  
+5. Find the frequency of each character in a string using Streams.  
+  
+🔹 Spring Boot  
+6. What is a Spring Bean?  
+7. Explain the Spring Boot annotations you have used and their purposes.  
+8. How does global exception handling work in Spring Boot?  
+  
+🔹 REST APIs & Web Services  
+9. Explain different HTTP status codes.  
+10. What is the difference between REST and SOAP?  
+  
+🔹 Microservices  
+11. What are microservices?  
+12. What is the difference between a monolithic architecture and microservices?  
+13. How do you handle failures in a microservices architecture?  
+  
+🔹 Project Discussion  
+14. Explain your project architecture.  
+15. How is security handled in your project?  
+16. Which Java and Spring Boot versions are used in your project?  
+  
+💡 Preparation Tip: Don’t just memorize definitions. Be ready to explain how you have used these concepts in your project, write clean Java code, and discuss real-world scenarios.
+
+
+
+
+---
+
+
 🚀 Java Backend Interview Experience | Capgemini 💻  
   
 Recently appeared for a Java Backend interview at Capgemini, and the questions are a useful reminder of what Java developers should prepare beyond basic definitions.  

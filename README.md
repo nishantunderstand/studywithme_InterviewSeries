@@ -14,35 +14,6 @@ Thankful
 - Every Month
 - Always Add new Content to the Top.
 ---
-- [Interview Series TOC](!TOC.md)
-- Accenture
-- Altimetrik
-- Americian Express
-- Barclays
-- Bravuara
-- Capgemini
-- Citi Bank
-- Cognizant
-- Comviva
-- Datatex
-- Delhivery
-- Deloite
-- EPAM
-- EY
-- Flipkart
-- HCL
-- Infosys
-- IntraEdge
-- JPMorgan
-- Logixal
-- MasterCard
-- Mphasis
-- NTT DATA
-- Nagaro
-- Optum
-- Oracle
-- PhonePe
-- README
-- Synchron
-- Tech Mahindra
-- Wissen
+
+- Better README.md
+- [📖 View Notes](CJD/README.md)

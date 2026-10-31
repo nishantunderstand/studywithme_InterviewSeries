@@ -1,3 +1,51 @@
+🚀 EPAM Java Backend Developer Interview Experience | 5+ Years of Experience  
+  
+Preparing for a Senior Java Backend Developer interview? Here are some important topics and coding problems to include in your preparation! 📌  
+  
+Recently, an interview for a Senior Java Backend Developer role at EPAM Systems covered several key areas of backend engineering, from Core Java and Spring Boot to microservices, SQL, and system design.  
+  
+☕ 1. Core Java & Collections  
+  
+🔹 Explain HashMap internals and the Collections Framework.  
+🔹 What are the important features of Java 8?  
+🔹 Explain Stream API and functional interfaces.  
+🔹 How does multithreading and concurrency work in Java?  
+🔹 StringBuilder vs StringBuffer.  
+  
+🌱 2. Spring Boot & Hibernate  
+  
+🔹 Explain the Spring Bean lifecycle and auto-configuration.  
+🔹 How does `@Transactional` work internally?  
+🔹 Explain transaction propagation types.  
+🔹 What is the N+1 query problem, and how can you solve it?  
+🔹 Explain JPA relationships, REST API design, and exception handling.  
+  
+🔄 3. Microservices & Kafka  
+  
+🔹 Explain the Circuit Breaker and Retry patterns.  
+🔹 How do you handle duplicate requests using idempotency?  
+🔹 Explain Kafka messaging and Dead Letter Queues (DLQs).  
+🔹 How do you manage distributed transactions using the Saga pattern?  
+🔹 How do you build resilient microservices?  
+  
+💻 4. Coding & Problem Solving  
+🔹 Find the longest substring without repeating characters.  
+🔹 Group anagrams from a list of strings.  
+🔹 Find the first non-repeating character in a string.  
+🔹 Solve coding problems using Java 8 Streams.  
+  
+🗄️ 5. SQL & System Design  
+  
+🔹 How do you optimize SQL queries using indexes?  
+🔹 Explain different types of joins.  
+🔹 Write a query to find the second-highest salary.  
+🔹 How would you design scalable and fault-tolerant backend services?  
+  
+💡 Key Takeaway: For senior-level interviews, knowing definitions is not enough. Be prepared to explain implementation details, trade-offs, production challenges, and the reasoning behind your technical decisions.
+
+
+---
+
 🚀 EPAM Java Developer Interview Experience | 💻  
 Sharing questions from a recent EPAM Java interview, covering DSA, Java Internals, Spring Boot, Multithreading, Security & Microservices.  
 🔥 Questions Asked  

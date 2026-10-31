@@ -8,40 +8,60 @@
 # Company List 
 
 - Accenture
+- ACL
 - AI Interview Portal HIPERBRAIN
 - AI Interview Portal HYRGPT AI
 - AI Interview Portal WIPRO WEGA
 - Airtel Payment Bank
+- Akamai
 - Altimetrik
+- Amazon
 - Americian Express
+- Bajaj Finance
 - Barclays
+- Birlasoft
+- Bitwise
 - Bravura Solutions
 - Capgemini
+- Charter Global
 - Citi Bank
 - Cognizant
 - Comviva
+- Crunchyroll
 - Datatex
 - Delhivery
 - Deloitte
 - EPAM
 - EY
 - Flipkart
+- Google
 - HCL
 - Honey Bee
+- Hughes Systique Corporation
+- i-exceed
 - Infosys
 - IntraEdge
 - JPMorgan
+- Kotak Mahindra Bank
 - Logixal
 - MasterCard
 - Mphasis
 - Nagaro
+- NavajNa
 - NTT DATA
 - Optum
 - Oracle
+- PayPal
 - PhonePe
+- PwC
 - README
 - Synchron
 - Synchrony
+- Tata Nexarc
+- TCS
 - Tech Mahindra
+- UnClassified
 - Virtuasa
+- Walmart
+- Wells Fargo
 - Wissen
