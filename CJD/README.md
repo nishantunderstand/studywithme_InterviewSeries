@@ -46,6 +46,7 @@
 - Logixal
 - MasterCard
 - Mphasis
+- MUFG
 - Nagaro
 - NavajNa
 - NTT DATA
@@ -60,8 +61,8 @@
 - Tata Nexarc
 - TCS
 - Tech Mahindra
-- UnClassified
 - Virtuasa
+- VISA
 - Walmart
 - Wells Fargo
 - Wissen
