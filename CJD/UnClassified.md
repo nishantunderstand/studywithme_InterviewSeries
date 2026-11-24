@@ -1,3 +1,92 @@
+🚀 Java Full Stack Developer Interview Experience | 3 Rounds | Java | Spring Boot | Microservices | React.js | AWS  
+  
+The process consisted of 3 rounds, testing technical fundamentals, hands-on coding, project architecture, and techno-managerial skills.  
+  
+🔹 Round 1: Online Screening (HackerRank)  
+  
+⏱️ Duration: 90 Minutes  
+📌 Total Sections: 5  
+  
+The assessment was divided into:  
+  
+1. Core Java – Java fundamentals and programming concepts.  
+2. Spring Boot – Spring Boot concepts and related questions.  
+3. JavaScript & React.js – JavaScript fundamentals and React.js concepts.  
+4. Microservices – Microservices architecture and related concepts.  
+5. Coding – Programming and problem-solving questions.  
+  
+🔹 Round 2: Technical Interview  
+  
+1️⃣ Java & Collections Framework  
+  
+* Questions on the Java Collection Framework.  
+* Implement a customized HashMap from scratch.  
+* Implement a Deque data structure.  
+* Explain different types of Functional Interfaces with syntax.  
+* Explain four major design patterns: Singleton, Factory, Builder, and Prototype.  
+  
+2️⃣ SQL & Database  
+  
+* Write SQL queries using multiple tables.  
+* Nested queries and subqueries.  
+* Find the 4th highest salary from an employee table.  
+* Difference between GROUP BY and HAVING.  
+* Practical SQL query-writing scenarios.  
+  
+3️⃣ Spring Boot & Spring Batch  
+  
+* Spring Batch processing concepts.  
+* Implementing schedulers in Spring Boot.  
+* How to handle multiple instances of a scheduler?  
+* How to prevent duplicate execution when multiple application instances are running?  
+* Handling defective or invalid records during batch processing.  
+  
+4️⃣ Agentic AI  
+  
+* Basic concepts of Agentic AI.  
+* How would you develop an AI agent to review source code?  
+* Understanding AI agent workflows and automation possibilities.  
+  
+5️⃣ React.js  
+  
+* Theory-based questions on React.js and its core concepts.  
+  
+🔹 Round 3: Techno-Managerial Interview  
+  
+This round focused on technical decision-making, development practices, cloud knowledge, and automation.  
+  
+1️⃣ Agile Methodology  
+  
+* Agile ways of working.  
+* Sprint planning and daily stand-ups.  
+* Team collaboration and handling sprint deliverables.  
+  
+2️⃣ Agentic AI & Automation  
+  
+* How to create an agent for automating SAST-related fixes.  
+* Defining rules and guidelines for identifying and fixing security vulnerabilities.  
+* Designing an agent to automate code vulnerability fixes.  
+* Workflow for reviewing, fixing, and validating code changes.  
+  
+3️⃣ AWS Lambda  
+  
+* Explain the complete flow of executing code using AWS Lambda.  
+* How to deploy and trigger a Lambda function.  
+* Execution flow and integration with other AWS services.  
+  
+4️⃣ React.js  
+  
+* Difference between functional and class components.  
+* Their lifecycle and working.  
+* CORS-related errors, their causes, troubleshooting, and possible solutions.
+
+
+
+
+
+
+---
+
 🚀 Latest Java Backend Interview Experiences | 3–6 YOE  
   
 Preparing for Java Backend interviews? Don’t focus only on definitions and basic coding questions!  

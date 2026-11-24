@@ -1,4 +1,3 @@
-
 🚀 TCS Java Full Stack Developer Interview Experience | 6 YOE 💻  
   
 Sharing questions from a recent TCS Java Full Stack Developer interview for a candidate with 6 years of experience.  

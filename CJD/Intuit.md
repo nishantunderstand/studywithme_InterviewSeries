@@ -1,3 +1,51 @@
+
+🚀 Intuit SWE-2 Interview Experience | 37 LPA | 5 Rounds  
+  
+A candidate with 1.9 years of experience cleared the Intuit interview process for a Bangalore role.  
+  
+Here’s a quick breakdown:  
+  
+🔹 Round 1: Phone Screen (DSA + HLD)  
+  
+* Reverse a Linked List (iterative and recursive).  
+* Find the middle and reverse in groups of K.  
+* Explain CAP theorem and ACID properties.  
+  
+🔹 Round 2: Take-Home Assignment  
+  
+* Build a Spring Boot project and run it locally for the onsite interview.  
+  
+🔹 Round 3: Spring Boot (90 Minutes)  
+  
+* Build two APIs live.  
+* Pagination and layered architecture.  
+* Global exception handling.  
+* Security and rate limiting.  
+  
+🔹 Round 4: DSA + HLD  
+  
+* Reverse words in a string in-place.  
+* Configure an LLM endpoint using a properties file.  
+* API pagination limits and Java client debugging.  
+* Unit testing vs. integration testing.  
+  
+🔹 Round 5: AI/ML + Managerial  
+  
+* Model training and evaluation.  
+* Images to vectors and vector databases.  
+* RAG, AI agents, and neural networks.  
+* Behavioral questions and motivation to join Intuit.  
+  
+💰 Reported Offer:  
+  
+* ₹27 LPA fixed  
+* ₹7.25 LPA annual stock  
+* ₹3 LPA bonus  
+* Relocation benefits
+
+
+---
+
 🚀 Intuit SDE-2 Frontend Interview Experience | 42 LPA | Bengaluru  
   
 Think solving DSA problems is enough to crack a frontend engineering interview?  
